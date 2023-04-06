@@ -1,0 +1,39 @@
+.footer-call-notification {
+	position: absolute;
+	left: 22%;
+	right: 22%;
+	bottom: 0;
+	text-align: left;
+	background: #002766;
+	color: #ffffff;
+	padding: 0.9rem 1.3rem;
+	border-radius: 0.6rem 0.6rem 0 0;
+	display: flex;
+	column-gap: 1rem;
+}
+.footer-call-notification .phone-icon-wrap {
+	flex-basis: 5.2rem;
+	text-align: center;
+}
+.footer-call-notification .phone-icon-wrap .icon-circle-wrap {
+	background: #1890ff;
+	border-radius: 50%;
+	width: 2.6rem;
+	height: 2.6rem;
+	line-height: 3.15rem;
+	text-align: center;
+}
+.footer-call-notification .phone-icon-wrap img {
+	width: 1.22rem;
+}
+.footer-call-notification .call-join-btn-wrap {
+	flex-basis: 6.5rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+	.footer-call-notification {
+		left: 0%;
+		right: 0%;
+	}
+}

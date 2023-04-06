@@ -1,0 +1,29 @@
+/node_modules
+/public/hot
+/public/storage
+
+
+#Laravel Log
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/framework/laravel.log
+/storage/framework/logs/stripe/*
+
+#Vendor & Modules
+/vendor
+/node_modules
+composer.lock
+package-lock.json
+
+#Environment
+/storage/*.key
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_bulk_code" data-name="vuesax/bulk/code" transform="translate(-556 -252)">
+    <g id="code">
+      <path id="Vector" d="M20,0V8.19C20,11.83,17.83,14,14.19,14H5.81C2.17,14,0,11.83,0,8.19V.01Z" transform="translate(558 260)" fill="#fff" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M2.54,5.5a.764.764,0,0,1-.33-.08A5.017,5.017,0,0,1,.3,3.73a1.767,1.767,0,0,1,0-1.97A4.911,4.911,0,0,1,2.21.08.754.754,0,0,1,3.22.42a.745.745,0,0,1-.34,1.01A3.442,3.442,0,0,0,1.55,2.61a.289.289,0,0,0,0,.31A3.442,3.442,0,0,0,2.88,4.1a.763.763,0,0,1,.34,1.01A.8.8,0,0,1,2.54,5.5Z" transform="translate(562.46 264.25)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M.752,5.516A.748.748,0,0,1,.422,4.1a3.442,3.442,0,0,0,1.33-1.18.289.289,0,0,0,0-.31,3.442,3.442,0,0,0-1.33-1.18A.763.763,0,0,1,.082.416a.763.763,0,0,1,1.01-.34A5.017,5.017,0,0,1,3,1.766a1.767,1.767,0,0,1,0,1.97,4.911,4.911,0,0,1-1.91,1.68A.66.66,0,0,1,.752,5.516Z" transform="translate(570.458 264.234)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M20,5.81V6L0,6.01v-.2C0,2.17,2.17,0,5.81,0h8.38C17.83,0,20,2.17,20,5.81Z" transform="translate(558 254)" fill="#fff"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(556 252)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

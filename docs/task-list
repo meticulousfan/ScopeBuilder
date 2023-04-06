@@ -1,0 +1,22 @@
+Updated Task List - 05/01/2021
+
+Sukhmeet
+- Make new form
+- Proper Database connection
+- save for later for single and multiple user
+- clean code to clear all JS error s
+
+Changes in the form
+- Question to be added in the start "Do you have mock up designs for the project?"
+- If answer is No then On each page they fill in the information and actions, I'd like a space to enter link of an example page they like the designs for this page (only give this if they did not have mockups already
+
+- Referral link new task 
+   - Create a single referral link per user. Preferably use username as a referral link aap
+- this is a current link 
+http://app.scopebuilder.co/client/register?ref=9VYOpmf8l80Tk5xD&project=testing
+
+ we will change it to http://app.scopebuilder.co/client/register?ref=sukhmeetsingh
+
+- Forget password not working ( need a fix) 
+
+- Check the calculations , if it is working fine. Developer should get 50% of the fee paid by client while registering.

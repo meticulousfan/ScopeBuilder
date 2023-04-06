@@ -1,0 +1,157 @@
+.question-block{
+	margin-bottom: 30px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	.block-top{
+		position: relative;
+		margin-bottom: 20px;
+		padding-right: 40px;
+
+		.popover-block{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+	}
+
+	.block-caption{
+		@include h2;
+		color: var(--text-dark);
+	}
+
+	.block-note{
+		margin-top: 10px;
+		font-size: 16px;
+		line-height: 1.25;
+
+		@media screen and (max-width: 1599px){
+			font-size: 14px;
+		}
+	}
+}
+
+.popover-block{
+	position: relative;
+	z-index: 5;
+
+	.block-opener{
+		width: 20px;
+		height: 20px;
+		display: block;
+		cursor: pointer;
+
+		svg{
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+	}
+
+	.block-hidden-content{
+		position: absolute;
+		right: 0;
+		transform: translate(0, 30px);
+		top: calc(100% + 8px);
+		transition: all var(--t);
+		opacity: 0;
+		visibility: hidden;
+		width: 232px;
+		padding: 14px 10px;
+		color: var(--text-dark);
+		font-size: 14px;
+		background: #fff;
+		border-radius: var(--r);
+		box-shadow: var(--shadow);
+		pointer-events: none;
+		border: 1px solid #E8E8E8;
+
+		&:after{
+			content: '';
+			display: block;
+			width: 100%;
+			height: 12px;
+			position: absolute;
+			left: 0;
+			bottom: 100%;
+		}
+	}
+
+	&:hover,
+	&:focus-within{
+		z-index: 90;
+
+		.block-hidden-content{
+			transform: translate(var(--shift-x), 0);
+			opacity: 1;
+			visibility: visible;
+			pointer-events: auto;
+		}
+	}
+
+	@media screen and (max-width: 1199px){
+		.block-hidden-content{
+			width: 220px;
+		}
+	}
+}
+
+.values-component{
+	.values-list{
+		border: 1px solid #e8e8e8;
+		border-radius: var(--r);
+
+		.item{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 18px 18px 18px 20px;
+			min-height: 59px;
+			color: var(--text-dark);
+
+			&:not(:last-child){
+				border-bottom: 1px solid #e8e8e8;
+			}
+
+			.action-btn{
+				flex: none;
+				margin-left: 16px;
+			}
+
+			@media screen and (max-width: 1599px){
+				padding: 14px 14px 14px 16px;
+				min-height: 52px;
+			}
+		}
+	}
+
+	.add-btn{
+		margin-top: 20px;
+		width: 60px;
+		height: 60px;
+		border-radius: var(--r);
+		background: var(--blue-100);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.btn-icon{
+			width: 16px;
+			height: 16px;
+			display: block;
+			flex: none;
+		}
+
+		&:hover,
+		&:focus{
+			background: var(--blue-200);
+		}
+
+		@media screen and (max-width: 1599px){
+			width: 52px;
+			height: 52px;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SF Pro Display Regular';
+  src: url(http://127.0.0.1:8000/fonts/SFProDisplayRegular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}  
+ body {  
+    font-family: 'SF Pro Display Regular';  
+} 
+/***************/

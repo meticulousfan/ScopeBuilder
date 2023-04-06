@@ -1,0 +1,1 @@
+composer clear-cache && composer dump-autoload && php artisan clear-compiled && composer dump-autoload && php artisan route:cache && php artisan serve

@@ -1,0 +1,153 @@
+.auth-page{
+	min-height: 100vh;
+	background: var(--blue-1000);
+	padding: 110px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+	.page-logo{
+		position: absolute;
+		left: 80px;
+		top: 40px;
+
+		img{
+			height: 36px;
+			width: auto;
+			display: block;
+		}
+	}
+
+	@media screen and (min-width: 1920px){
+		.page-logo{
+			left: calc(50% - 1920px / 2 + 80px);
+		}
+	}
+
+	@media screen and (max-height: 750px){
+		padding: 100px 15px 70px;
+		display: block;
+	}
+
+	@media screen and (max-width: 1599px){
+		padding: 100px 15px 70px;
+		display: block;
+
+		.page-logo{
+			top: 30px;
+		}
+	}
+
+	@media screen and (max-width: 1199px){
+		.page-logo{
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}
+
+.auth-block{
+	padding: 30px;
+	border-radius: var(--r);
+	background: #fff;
+	width: 100%;
+	max-width: 536px;
+	margin-left: auto;
+	margin-right: auto;
+
+	--auth-gap: 30px;
+
+	@media screen and (max-width: 1599px){
+		--auth-gap: 20px;
+		padding: 30px 20px 20px;
+		max-width: 400px;
+	}
+
+	@media screen and (max-width: 991px){
+		padding: 30px 15px 15px;
+	}
+
+	.page-nav{
+		margin-bottom: 30px;
+	}
+
+	.block-caption{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: var(--auth-gap);
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		.bc-icon{
+			width: 80px;
+			height: 80px;
+			background: var(--blue-100);
+			border-radius: 50%;
+			margin-bottom: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			img{
+				width: 24px;
+				height: 24px;
+				display: block;
+				object-fit: contain;
+				object-position: center center;
+			}
+		}
+
+		.bc-title{
+			@include h1;
+			color: var(--text-dark);
+		}
+
+		.bc-subtitle{
+			font-size: 16px;
+			line-height: 1.25;
+			margin-top: 10px;
+
+			@media screen and (max-width: 1599px){
+				font-size: 14px;
+			}
+		}
+	}
+
+	.block-form{
+		margin-bottom: var(--auth-gap);
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	.block-footer{
+		display: flex;
+
+		.btn{
+			flex: auto;
+			flex-basis: 100%;
+
+			&:not(:last-child){
+				margin-right: 15px;
+			}
+		}
+
+		@media screen and (max-width: 479px){
+			flex-direction: column-reverse;
+
+			.btn{
+				&:not(:last-child){
+					margin-right: 0;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+}

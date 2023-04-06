@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_bulk_stop-circle" data-name="vuesax/bulk/stop-circle" transform="translate(-492 -380)">
+    <g id="stop-circle">
+      <path id="Vector" d="M20,10A10,10,0,1,1,10,0,10,10,0,0,1,20,10Z" transform="translate(493.97 382)" fill="#fff" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M3,8.46H5.46a3,3,0,0,0,3-3V3a3,3,0,0,0-3-3H3A3,3,0,0,0,0,3V5.46A3,3,0,0,0,3,8.46Z" transform="translate(499.77 387.77)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(492 380)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

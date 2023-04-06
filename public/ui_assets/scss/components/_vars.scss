@@ -1,0 +1,32 @@
+:root{
+	// Fonts
+	--main-font:  'Roboto', Arial, sans-serif;
+	--second-font: 'Roboto', Arial, sans-serif;
+
+	// Colors
+	--blue-100: #E6F7FF;
+	--blue-200: #BAE7FF;
+	--blue-300: #91D5FF;
+	--blue-400: #69C0FF;
+	--blue-500: #40A9FF;
+	--blue-600: #1890FF;
+	--blue-700: #096DD9;
+	--blue-800: #0050B3;
+	--blue-900: #003A8C;
+	--blue-1000: #002766;
+
+	--red: #EB5757;
+
+	// Params
+	--body-bg: #FAFAFA; // site background
+	--t: .3s; // animation duration
+	--r: 10px; // default border radius
+	--shadow: 0 5px 10px #F5F5F5;
+
+	--text-color: #8C8C8C;
+	--text-light: #BFBFBF;
+	--text-dark: #000;
+
+	--primary: var(--blue-600);
+	--accent: var(--blue-600);
+}
